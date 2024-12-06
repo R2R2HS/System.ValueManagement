@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4D765E3-5433-4A70-B091-3AA47C474CD3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.System.ValueManagement.Collections", "WLib.System.ValueManagement.Collections\WLib.System.ValueManagement.Collections.csproj", "{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.System.ValueManagement.Properties", "WLib.System.ValueManagement.Properties\WLib.System.ValueManagement.Properties.csproj", "{C242B093-812B-44B3-8173-0E30BE4D7821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.System.ValueManagement.Properties.Extensions", "WLib.System.ValueManagement.Properties.Extensions\WLib.System.ValueManagement.Properties.Extensions.csproj", "{279493C9-929C-44B4-A4D4-A9A9A10F609D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.System.ValueManagement.Collections.Extensions", "WLib.System.ValueManagement.Collections.Extensions\WLib.System.ValueManagement.Collections.Extensions.csproj", "{930EF212-3F0E-48FC-9F4D-0BB5891AA49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WLib.System.ValueManagement.Source", "WLib.System.ValueManagement.Source\WLib.System.ValueManagement.Source.csproj", "{4657D1E7-97DE-4CD2-8A79-EE3EEE117950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{7370656A-A7BC-4D90-8CE2-DCBD316E6823}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{1ECF0813-ED1C-4E1D-809F-99E1448E472F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sub", "Sub", "{E261E09B-0F56-49B7-9536-EBB1F50EBDB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{069E5659-7DFF-4F2A-84A9-14D8748FC962}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C242B093-812B-44B3-8173-0E30BE4D7821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C242B093-812B-44B3-8173-0E30BE4D7821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C242B093-812B-44B3-8173-0E30BE4D7821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C242B093-812B-44B3-8173-0E30BE4D7821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{279493C9-929C-44B4-A4D4-A9A9A10F609D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{279493C9-929C-44B4-A4D4-A9A9A10F609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{279493C9-929C-44B4-A4D4-A9A9A10F609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{279493C9-929C-44B4-A4D4-A9A9A10F609D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{930EF212-3F0E-48FC-9F4D-0BB5891AA49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{930EF212-3F0E-48FC-9F4D-0BB5891AA49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{930EF212-3F0E-48FC-9F4D-0BB5891AA49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{930EF212-3F0E-48FC-9F4D-0BB5891AA49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4657D1E7-97DE-4CD2-8A79-EE3EEE117950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4657D1E7-97DE-4CD2-8A79-EE3EEE117950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4657D1E7-97DE-4CD2-8A79-EE3EEE117950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4657D1E7-97DE-4CD2-8A79-EE3EEE117950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9935A64-8DCA-4EC2-A1E6-2CB4D7FDE8FD} = {E261E09B-0F56-49B7-9536-EBB1F50EBDB9}
+		{C242B093-812B-44B3-8173-0E30BE4D7821} = {E261E09B-0F56-49B7-9536-EBB1F50EBDB9}
+		{279493C9-929C-44B4-A4D4-A9A9A10F609D} = {7370656A-A7BC-4D90-8CE2-DCBD316E6823}
+		{930EF212-3F0E-48FC-9F4D-0BB5891AA49B} = {7370656A-A7BC-4D90-8CE2-DCBD316E6823}
+		{4657D1E7-97DE-4CD2-8A79-EE3EEE117950} = {1ECF0813-ED1C-4E1D-809F-99E1448E472F}
+		{7370656A-A7BC-4D90-8CE2-DCBD316E6823} = {E261E09B-0F56-49B7-9536-EBB1F50EBDB9}
+		{1ECF0813-ED1C-4E1D-809F-99E1448E472F} = {069E5659-7DFF-4F2A-84A9-14D8748FC962}
+		{E261E09B-0F56-49B7-9536-EBB1F50EBDB9} = {069E5659-7DFF-4F2A-84A9-14D8748FC962}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB385817-0F42-4C08-81F6-1BD7843BB190}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,7 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+  <ItemGroup>
+    <ProjectReference Include="..\WLib.System.ValueManagement.Properties\WLib.System.ValueManagement.Properties.csproj" />
+  </ItemGroup>
+    
+</Project>
